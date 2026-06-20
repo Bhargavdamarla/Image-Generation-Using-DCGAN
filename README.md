@@ -184,6 +184,3 @@ python train.py
 🔗 LinkedIn: https://linkedin.com/in/saibhargavdamarla  
 💻 GitHub: https://github.com/Bhargavdamarla
 
----
-
-If you found this project interesting, feel free to ⭐ the repository.
