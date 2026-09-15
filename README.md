@@ -1,15 +1,15 @@
-# 🎨 Image Generation Using DCGAN
+# Image Generation Using DCGAN
 
 This project explores the use of Deep Convolutional Generative Adversarial Networks (DCGANs) to generate realistic images from random noise. The model was trained on three datasets of increasing complexity—MNIST, SVHN, and CelebA—to understand how GANs perform on different types of image data.
 
 ---
 
-## 🚀 Project Overview
+# Project Overview
 
 Generative Adversarial Networks (GANs) consist of two neural networks:
 
-- **Generator** – creates synthetic images from random noise.
-- **Discriminator** – learns to distinguish real images from generated images.
+- Generator – creates synthetic images from random noise.
+- Discriminator  – learns to distinguish real images from generated images.
 
 Both networks compete against each other during training, enabling the generator to gradually produce more realistic images.
 
@@ -17,7 +17,7 @@ In this project, separate DCGAN models were trained on handwritten digits, stree
 
 ---
 
-## ✨ Features
+# Features
 
 - Implemented Deep Convolutional GAN (DCGAN) architecture
 - Trained models on MNIST, SVHN, and CelebA datasets
@@ -28,8 +28,7 @@ In this project, separate DCGAN models were trained on handwritten digits, stree
 - Analyzed training behavior using loss curves and visual outputs
 
 ---
-
-## 🛠️ Technologies Used
+# Technologies Used
 
 - Python
 - TensorFlow
@@ -40,32 +39,32 @@ In this project, separate DCGAN models were trained on handwritten digits, stree
 
 ---
 
-## 📂 Datasets
+Datasets
 
-### MNIST
+# MNIST
 A dataset containing 70,000 grayscale images of handwritten digits (0–9). Each image is 28×28 pixels and provides a simple benchmark for evaluating generative models.
 
-### SVHN (Street View House Numbers)
+# VHN (Street View House Numbers)
 Contains more than 600,000 real-world digit images collected from Google Street View. The dataset is more challenging due to variations in lighting and background.
 
-### CelebA
+# CelebA
 A large-scale dataset with over 200,000 celebrity face images. The high diversity and image complexity make it significantly harder for the model to generate realistic outputs.
 
 ---
 
-## 🧠 Model Architecture
+# Model Architecture
 
 The DCGAN model consists of two components:
 
-### Generator
+# Generator
 The generator takes random noise as input and produces synthetic images. It uses transposed convolution layers along with batch normalization and LeakyReLU activations.
 
-### Discriminator
+# Discriminator
 The discriminator acts as a binary classifier and determines whether an image is real or generated. It learns to distinguish fake samples from actual images during training.
 
 ---
 
-## ⚙️ Training Configuration
+# Training Configuration
 
 | Parameter | Value |
 |------------|--------|
@@ -77,20 +76,20 @@ The discriminator acts as a binary classifier and determines whether an image is
 
 ---
 
-## 📈 Results
+# Results
 
-### MNIST
+# MNIST
 The model was able to generate clear and recognizable handwritten digits. Since the dataset is relatively simple, training converged quickly and produced high-quality outputs.
 
-### SVHN
+# SVHN
 Generating house numbers was more challenging because of color variations and complex backgrounds. The image quality improved steadily with training, although minor artifacts remained.
 
-### CelebA
+# CelebA
 The model successfully learned facial structures and generated human-like faces. While some images contained blurring, the generated samples captured important facial features and showed significant improvement over time.
 
 ---
 
-## 📊 Evaluation
+# Evaluation
 
 Model performance was evaluated through:
 
@@ -101,7 +100,7 @@ Model performance was evaluated through:
 
 ---
 
-## 📁 Project Structure
+# Project Structure
 
 ```text
 Image-Generation-Using-DCGAN
@@ -118,7 +117,7 @@ Image-Generation-Using-DCGAN
 
 ---
 
-## ⚡ Getting Started
+# Getting Started
 
 Clone the repository:
 
@@ -146,7 +145,7 @@ python train.py
 
 ---
 
-## 🔍 Applications
+# Applications
 
 - Synthetic image generation
 - Data augmentation
@@ -156,7 +155,7 @@ python train.py
 
 ---
 
-## 🚀 Future Work
+# Future Work
 
 - Explore Wasserstein GAN (WGAN)
 - Experiment with StyleGAN architectures
@@ -166,7 +165,7 @@ python train.py
 
 ---
 
-## 📚 References
+# References
 
 - Ian Goodfellow et al., *Generative Adversarial Networks* (2014)
 - TensorFlow Documentation
@@ -174,9 +173,6 @@ python train.py
 - SVHN Dataset
 - CelebA Dataset
 
----
-
-## 👨‍💻 Author
 
 **Sai Bhargav Damarla**
 
